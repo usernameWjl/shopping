@@ -4,3 +4,9 @@
 切换分支 git checkout 分支名
 删除分支 git branch -d 分支名
 合并分支 git merge 别合并的分支名
+
+忽略文件操作
+为什么需要忽略文件 有百年不变的文件目录 css js images 等文件 或者即便有改动 我们也不想上传到线上仓库 
+touch .gitignore 新建文件
+在此文件里面编辑过滤规则
+
